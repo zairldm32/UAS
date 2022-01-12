@@ -13,6 +13,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.List;
 
 import com.example.uts.model.Hewan;
+import com.example.uts.model.Kucing;
+import com.example.uts.model.Anjing;
+import com.example.uts.model.Harimau;
 
 public class DaftarHewanActivity extends AppCompatActivity {
     public final static String HEWAN_TERPILIH ="hewan_obj_key";
@@ -25,9 +28,19 @@ public class DaftarHewanActivity extends AppCompatActivity {
         setContentView(R.layout.activity_daftar_hewan);
         Intent intent = getIntent();
         jenisHewan = intent.getStringExtra(MainActivity.JENIS_GALERI_KEY);
-        TextView txJudul = findViewById(R.id.text_title_daftar);
-        txJudul.setText("DAFTAR BERBAGAI RAS "+jenisHewan.toUpperCase());
-        hewans = DataProvider.getHewansByTipe(this,jenisHewan);
+        hewans = DataProvider.getHewansByTipe(this, jenisHewan);
+
+        TextView txJudulList = findViewById(R.id.text_title_daftar);
+        String judul = "";
+        if (hewans.get(0) instanceof Kucing) {
+            judul = getString(R.string.kucing_list_title);
+        } else if (hewans.get(0) instanceof Anjing) {
+            judul = getString(R.string.anjing_list_title);
+        }
+        else if (hewans.get(0) instanceof Harimau) {
+            judul = getString(R.string.harimau_list_title);
+        }
+        txJudulList.setText(judul);
         setupListView();
     }
 

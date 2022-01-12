@@ -1,3 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Педиа Животные</string>
+    // Layout
+    <string name="pilih_gambar">Выберите изображение, чтобы открыть галерею</string>
+    <string name="daftar_ras_judul">Список рас животных</string>
+    <string name="go_back">Возвращение</string>
+    <string name="kucing">Кот</string>
+    <string name="anjing">Собака</string>
+    <string name="harimau">Тигр</string>
+    <string name="kucing_list_title">Список кошек</string>
+    <string name="anjing_list_title">Список пород собак</string>
+    <string name="harimau_list_title">Список расы тигров</string>
+    // Data kucing
+    <string name="angora_nama">Ангора</string>
+    <string name="angora_asal">Турция</string>
+    <string name="angora_deskripsi">Родом из Анкары, Турция, с характерными длинными и мягкими волосами.</string>
+    <string name="bengal_nama">Бенгалия</string>
+    <string name="bengal_asal">английский</string>
+    <string name="bengal_deskripsi">Является результатом скрещивания азиатской леопардовой кошки и британской домашней кошки.</string>
+    <string name="birmani_nama">Бирмани</string>
+    <string name="birmani_asal">Бирма/Мьянма</string>
+    <string name="birmani_deskripsi">Говорят, что изначально порода кошек сопровождала монахов, поселившихся в храмах Бирмы.</string>
+    <string name="persia_nama">персидский</string>
+    <string name="persia_asal">Иран</string>
+    <string name="persia_deskripsi">Длинношерстный кот с круглой мордой и вздернутым носом. Первоначально из Ирана, затем импортирован в Италию.</string>
+    <string name="siam_nama">Сиам</string>
+    <string name="siam_asal">Таиланд</string>
+    <string name="siam_deskripsi">Кошка, происходящая от Wichian Maat (тайская кошка), с характерным длинным и стройным телом, овальным лицом, широкими ушами и голубоватыми глазами.</string>
+    <string name="siberia_nama">Сибирь</string>
+    <string name="siberia_asal">
+Россия</string>
+    <string name="siberia_deskripsi">Русская домашняя кошка с густым мехом и большим телом, но очень подвижная и известная своей прыгучестью.</string>
+    // Data anjing
+    <string name="bulldog_nama">бульдог</string>
+    <string name="bulldog_asal">английский</string>
+    <string name="bulldog_deskripsi">Популярная собака, известная своим пухлым, мускулистым телом, морщинистой мордой и вздернутым носом.</string>
+    <string name="husky_nama">Хаски</string>
+    <string name="husky_asal">Аляска, Сибирь, Финляндия (снежные районы)</string>
+    <string name="husky_deskripsi">Особая порода собак, изначально использовавшаяся для тяги саней.</string>
+    <string name="kintamani_nama">Кинтамани</string>
+    <string name="kintamani_asal">Индонезия</string>
+    <string name="kintamani_deskripsi">Породы собак родом с острова Бали </string>
+    <string name="samoyed_nama">самоед</string>
+    <string name="samoyed_asal">Россия</string>
+    <string name="samoyed_deskripsi">Собаки родом из Сибири, которые первоначально использовались для охраны домашнего скота самоедским племенем.</string>
+    <string name="shepherd_nama">Пасти</string>
+    <string name="shepherd_asal">Немецкий</string>
+    <string name="shepherd_deskripsi">Умная и сильная собака, в настоящее время широко используемая в качестве сторожевой собаки, телохранителя и полицейской собаки (K9).</string>
+    <string name="shiba_nama">Шиба</string>
+    <string name="shiba_asal">Япония</string>
+    <string name="shiba_deskripsi">Эта собака из района Сиба ловкая и подвижная, поэтому изначально ее часто использовали для охоты.</string>
+    // Data Harimau
+    <string name="siberian_nama">Сибирский</string>
+    <string name="siberian_asal">Россия</string>
+    <string name="siberian_deskripsi">Амурский тигр — самый крупный подвид тигра в мире, National Geographic сообщает, что он может достигать 3,2 метра в длину и весить 300 кг.</string>
+    <string name="benggala_nama">Бенгалия</string>
+    <string name="benggala_asal">Индия</string>
+    <string name="benggala_deskripsi">Этот подвид тигра обитает в Индии.Согласно странице Tigers World, индийский тигр имеет самую большую популяцию среди всех видов тигров.</string>
+    <string name="amoyensis_nama">Амойенсис</string>
+    <string name="amoyensis_asal">Южный Китай</string>
+    <string name="amoyensis_deskripsi">Этот тигр является вторым самым маленьким подвидом тигра в мире и одним из самых исчезающих видов животных.</string>
+    <string name="indochinese_nama">индокитайский</string>
+    <string name="indochinese_asal">Юго-Восточная Азия</string>
+    <string name="indochinese_deskripsi">Индокитайский тигр — подвид тигра, обитающий в Камбодже, Китае, Лаосе, Бирме, Таиланде и Вьетнаме.</string>
+    <string name="malayan_nama">малайский</string>
+    <string name="malayan_asal">Малайзия</string>
+    <string name="malayan_deskripsi">Малайский тигр — подвид тигра, обитающий на восточном побережье полуострова Малайзия, насчитывает 600–800 особей.</string>
+    <string name="sumatran_nama">Суматранский</string>
+    <string name="sumatran_asal">Индонезия</string>
+    <string name="sumatran_deskripsi">Суматранский тигр является эндемиком острова Суматра. Это самый маленький подвид среди всех тигров с максимальным размером всего 2,4 метра и весом 120 кг.</string>
+
 </resources>
