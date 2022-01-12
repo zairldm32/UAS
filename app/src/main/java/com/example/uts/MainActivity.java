@@ -36,8 +36,4 @@ private void bukaGaleri(String jenisHewan){
         startActivity(intent);
 }
 
-    public void BIODATA(View view) {
-        Intent intent = new Intent(MainActivity.this, MainActivity2.class);
-        startActivity(intent);
     }
-}
